@@ -2,16 +2,15 @@ import java.util.*;
 
 public class ArmstrongNumber {
 
-//    Napisz program który sprawdzi czy jest to liczba Armstronga,
-//    czyli jeśli jest równa sześcianowi każdej cyfry.
-//    Na przykład 153 jest liczbą Armstronga,
-//    ponieważ 153 = 1+ 125 + 27, co jest równe 1 ^ 3 + 5 ^ 3 + 3 ^ 3.
-//    Musisz napisać program, aby sprawdzić, czy podany numer jest numerem Armstronga, czy nie.
+//    It's a program to check if the number is ArmstrongNumber,
+//    F.Ex.: number 153 is the Armstrong number because 153 = 1+ 125 + 27,
+//    is equals to  1 ^ 3 + 5 ^ 3 + 3 ^ 3.
+
 
 
     public static boolean checkArmstrongNumber(String a){
 
-//        System.out.println(a.length());
+
         int tekst_dl = a.length();
         String[] tekst_parts = a.split("");
         int tekst_parts_dl = tekst_parts.length;
